@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="dragOrientation">
+        <!-- Item可以任意方向拖动-->
+        <enum name="all" value="0" />
+        <!-- Item只可以纵向拖动-->
+        <enum name="vertical" value="1" />
+        <!-- Item只可以横向拖动-->
+        <enum name="horizontal" value="2" />
+    </attr>
+
+    <declare-styleable name="DragGridLayout">
+        <!-- 行-->
+        <attr name="rowCount" format="integer" min="1" />
+        <!-- 列-->
+        <attr name="colCount" format="integer" min="1" />
+        <!-- 行间距-->
+        <attr name="rowSpacing" format="dimension" />
+        <!-- 列间距-->
+        <attr name="colSpacing" format="dimension" />
+        <!-- Item被拖动的放大倍数 默认1.1-->
+        <attr name="dragScale" format="float" />
+        <!-- Item是否可以被拖动 默认true-->
+        <attr name="draggable" format="float" />
+        <!-- Item可以拖动的方向,默认all,可以所有方向拖动 -->
+        <attr name="dragOrientation" />
+        <!-- Item是否可以拖动超出边界，默认false -->
+        <attr name="allowItemOutside" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="DragGridLayout_Layout">
+        <!-- Item所在行-->
+        <attr name="layout_row" format="integer" min="0" />
+        <!-- Item所占行数 默认1-->
+        <attr name="layout_rowSpan" format="integer" min="1" />
+        <!-- Item所在列-->
+        <attr name="layout_column" format="integer" min="0" />
+        <!-- Item所占列数 默认1-->
+        <attr name="layout_columnSpan" format="integer" min="1" />
+    </declare-styleable>
+</resources>

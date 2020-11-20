@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.edhlily.draggrid.DragGridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBg"
+    android:padding="20dp"
+    app:allowItemOutside="false"
+    app:colCount="4"
+    app:colSpacing="20dp"
+    app:dragOrientation="all"
+    app:rowCount="4"
+    app:rowSpacing="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/v1"
+        style="@style/ITEM"
+        android:onClick="onItemClick"
+        android:text="1"
+        app:layout_column="0"
+        app:layout_row="0" />
+
+    <TextView
+        android:id="@+id/v2"
+        style="@style/ITEM"
+        android:onClick="onItemClick"
+        android:text="2"
+        app:layout_column="1"
+        app:layout_row="0" />
+
+    <TextView
+        android:id="@+id/v3"
+        style="@style/ITEM"
+        android:onClick="onItemClick"
+        android:text="3"
+        app:layout_column="2"
+        app:layout_row="0" />
+
+    <TextView
+        android:id="@+id/v4"
+        style="@style/ITEM"
+        android:onClick="onItemClick"
+        android:text="4"
+        app:layout_column="3"
+        app:layout_row="0" />
+
+    <TextView
+        android:id="@+id/v5"
+        style="@style/ITEM"
+        android:onClick="onItemClick"
+        android:text="5"
+        app:layout_column="0"
+        app:layout_row="1" />
+
+    <TextView
+        android:id="@+id/v6"
+        style="@style/ITEM"
+        android:onClick="onItemClick"
+        android:text="6"
+        app:layout_column="1"
+        app:layout_row="1" />
+
+    <TextView
+        android:id="@+id/v7"
+        style="@style/ITEM"
+        android:onClick="onItemClick"
+        android:text="7"
+        app:layout_column="2"
+        app:layout_row="1" />
+
+    <TextView
+        android:id="@+id/v8"
+        style="@style/ITEM"
+        android:onClick="onItemClick"
+        android:text="8"
+        app:layout_column="3"
+        app:layout_row="1" />
+
+    <TextView
+        android:id="@+id/v9"
+        style="@style/ITEM"
+        android:onClick="onItemClick"
+        android:text="9"
+        app:layout_column="0"
+        app:layout_row="2" />
+
+    <TextView
+        android:id="@+id/v10"
+        style="@style/ITEM"
+        android:onClick="onItemClick"
+        android:text="10"
+        app:layout_column="1"
+        app:layout_row="2" />
+
+    <TextView
+        android:id="@+id/v11"
+        style="@style/ITEM"
+        android:onClick="onItemClick"
+        android:text="11"
+        app:layout_column="2"
+        app:layout_row="2" />
+
+    <TextView
+        android:id="@+id/v12"
+        style="@style/ITEM"
+        android:onClick="onItemClick"
+        android:text="12"
+        app:layout_column="3"
+        app:layout_row="2" />
+
+    <TextView
+        android:id="@+id/v13"
+        style="@style/ITEM"
+        android:onClick="onItemClick"
+        android:text="13"
+        app:layout_column="0"
+        app:layout_row="3" />
+
+    <TextView
+        android:id="@+id/v14"
+        style="@style/ITEM"
+        android:onClick="onItemClick"
+        android:text="14"
+        app:layout_column="1"
+        app:layout_row="3" />
+
+    <TextView
+        android:id="@+id/v15"
+        style="@style/ITEM"
+        android:onClick="onItemClick"
+        android:text="15"
+        app:layout_column="2"
+        app:layout_row="3" />
+
+    <TextView
+        android:id="@+id/v16"
+        style="@style/ITEM"
+        android:onClick="onItemClick"
+        android:text="16"
+        app:layout_column="3"
+        app:layout_row="3" />
+</com.edhlily.draggrid.DragGridLayout>
