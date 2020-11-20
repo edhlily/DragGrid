@@ -516,10 +516,9 @@ public class DragGridLayout extends ViewGroup {
                 if (draggable && draggingChild != null && draggingChild.dragging && !draggingChild.dragged) {
                     draggingChild.setDragging(false);
                     animateTarget(draggingChild);
+                } else {
+                    draggingChild = null;
                 }
-//                else {
-//                    draggingChild = null;
-//                }
                 break;
 
         }
